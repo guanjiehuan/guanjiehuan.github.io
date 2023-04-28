@@ -5,31 +5,22 @@
             <title>網站</title>
         </head>
         <body>
-             <script>
-                var password = hungramja;
-var input;
-var entry_count = 0;
-var entry_limit = 3;
-var out_of_limit = false;
+            <script src= "script.js"></script>  
+            <hi>部落格</hi>
+            <p>標題</p>
+            <input type="text" id="tittle"/>
+            <p>內容</p>
+            <textarea id="context" rows="8"></textarea>
+            <button id="btn">發布</button>
+            <div id="list">
+                <div class="article">
+                    <h2>標題</h2>
+                    <p>文章</p>
+                </div>
+            </div>
+            <script src="use.js"></script>
 
-
-while(password=input && !out_of_limit){
-    entry_count++;
-    if(entry_count<=entry_limit){
-        input=prompt("請輸入密碼");
-    }
-    else{
-        out_of_limit=true;
-    }
-}
-
-if(out_of_limit){
-    alert("超出輸入次數");
-}
-else{
-    alert("登入成功");
-}
-             </script>
+            
              
              
 

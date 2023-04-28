@@ -1,24 +1,15 @@
+var tittle = document.getElementById("tittle");
+var context = document.getElementById("context");
+var btn = document.getElementById("btn");
+var list = document.getElementById("list");
 
-var password = hungramja;
-var input;
-var entry_count = 0;
-var entry_limit = 3;
-var out_of_limit = false;
-
-
-while(password=input && !out_of_limit){
-    entry_count++;
-    if(entry_count<=entry_limit){
-        input=prompt("請輸入密碼");
-    }
-    else{
-        out_of_limit=true;
-    }
-}
-
-if(out_of_limit){
-    alert("超出輸入次數");
-}
-else{
-    alert("登入成功");
-}
+btn.addEventListener("click,function")(){
+   list.innerHTML = list.innerHTML + `
+   <div class="article">
+   <h2>${tittle.value}</h2>
+   <p>${context.value}</p>
+ </div>
+    `;
+    tittle.value = "";
+    console.value = "";
+})
