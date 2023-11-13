@@ -1,4 +1,4 @@
-var password = 110129;
+var password = 804;
 var input;
 var entry_count = 0;
 var entry_limit = 3;
