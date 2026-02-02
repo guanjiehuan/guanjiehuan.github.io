@@ -1,0 +1,396 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    background-color: rgb(195, 255, 240);
+}
+header{
+    width: 1240px;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+header nav ul{
+    display: flex;
+    padding: 5px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(12, 227, 255);
+    justify-content: center;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a{
+    margin: 0 20px;
+    font-weight:bold;
+    font-size: 14pt;
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: white;
+}
+.gui001{
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    margin:0 auto;
+    height: auto;
+}
+.gui002{
+    display:inline;
+    margin:0;
+    text-align: center;
+}
+main,.gui002 aside{
+    background-color:white;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+main{
+    flex-basis: 1050px;
+    margin-bottom: -10px;
+}
+aside{
+    flex-basis: 300px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
+article{
+    margin-left: 20px;
+}
+aside nav ul li{
+    display: block;
+    width: 75px;
+    margin: 0 0 5px;
+}
+aside nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+aside nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+aside nav, aside nav ul {
+    display: block;
+    width: 150px;
+}
+aside nav ul{
+    list-style:none;
+}
+.gui002 h3, .gui003 h3{
+    display: inline;
+   font-weight: bold;
+   border-bottom: 2px solid black;
+}
+footer{
+    display: block;
+    background-color: black;
+    width: 1240px;
+    margin: 0 auto 0;
+    border-radius: 20px;
+    height: 25px;
+}
+footer small{
+    display: block;
+    text-align: center;
+    
+}
+footer small p{
+    color: white;
+    font-weight:bold;
+}
+.button001{
+    background-color: red;
+    border-radius: 5px;
+    width: 80px;
+}
+.section_gui001 .gui010 a{
+    display:inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 auto 8px;
+}
+.section_gui001 .gui010 a:hover{
+    display: block;
+    width: 70px;
+    height: 18px;
+    opacity: 0.2;
+    background-color: beige;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    transition: 0.3s ease-out;
+}
+.gui010{
+    display: block;
+}
+.section_gui001{
+    text-align: center;
+}
+.section_gui001 .gui013{
+    position: relative;
+    top: 50px;
+}
+.section_gui001 h3{
+    display: inline;
+    margin-bottom: 25px;
+}
+.section_gui001 img{
+    position: relative;
+    left: 350px;
+    bottom: 0px;
+    border-radius: 50%;
+    float: left;
+}
+section h2 {
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+.gui003 a img{
+    display: block;
+    border-radius: 20%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    margin-top: 10px;
+}
+.gui003 h3{
+  display: inline-block;
+} 
+.gui005 .gui004{
+    display: block;
+    width: 1240px;
+    margin: 0 auto;
+}
+main article  .gui006{
+    text-align: center;
+}
+main article  .gui006 .gui007 {
+    display: flex;
+    justify-content: space-evenly;
+}
+main article .gui006 img{
+    border-radius: 5px;
+    margin:0 50px;
+}
+main article .gui006 img:hover,.gui003 a img:hover{
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+section .figure_gui001 img{
+    position: relative;
+    left: -40px;
+    border-radius: 55%;
+}
+figure figcaption{
+    font-weight: bold;
+}
+.section_gui002{
+    text-align:center;
+}
+.section_gui002 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section_gui002 ul li{
+    font-weight: bold;
+}
+.gui008,.gui009{
+    position: relative;
+    right: 50px;
+}
+.figure_gui002:hover{
+    opacity: 0.5;
+    transition: 0.3s ease-in;
+}
+.gui011{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position:relative ;
+}
+.gui011 .gui012{
+    display: inline-block;
+    position: absolute;
+    left: 1.5px;
+}
+.gui013{
+    position: absolute;
+    bottom: 0px;
+}
+.section_gui001 h2{
+    position: relative;
+    bottom: -10px;
+    margin-top:30px;
+}
+.ul_gui001{
+    display:block;
+    text-align: center;
+    margin-top: 100px; ;
+    position: relative;
+}
+.gui014 {
+    display:flex;
+}
+time{
+    font-weight: bold;
+}
+.gui014 .gui016,.gui014 .gui017{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+.gui014 .gui017{
+    margin-left: 100px;
+}
+.gui014 .gui017 .gui018{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.gui014 .gui017 .gui018 p{
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+}
+.gui016 ul{
+    text-align: start;
+}
+@media screen and (max-width:640px) {
+     body,body header,footer{
+        width: 100%;
+        font-size: 18pt;
+     }
+     header nav {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+     }
+     .gui001,.gui002{
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    height: auto;
+    }
+    header h1{
+    text-align: center;
+    padding: 0 0 3px 0;
+    }
+    header nav ul li a{
+    margin: 0 10px;
+    }
+    footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    footer small{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    section .gui0001{
+    text-align: start;
+    }
+    section .gui0001 h2{
+    display: inline;
+    width: 100%;
+    }
+    body .gui0002 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .gui011,.gui011 .section_gui001{
+    width: 100%;
+    }
+    .gui011 .section_gui001{
+    text-align: center;
+
+    }
+    .gui011 .section_gui001 img{
+    display: block;
+    position: relative;
+    left: -10px;
+    top: 10px;
+    float: left;
+    }
+    .section_gui001 .gui010 a:hover{
+    display: inline;
+    width: 100%;
+    height: auto;
+    opacity: none;
+    background-color: none;
+    border-radius: none;
+    position: relative;
+    left: 0px;
+    transition: 0.3s ease-out;
+    }
+.section_gui002 .ul_gui001{
+    display: block;
+    width: 100%;
+    text-align: center;
+} 
+.figure_gui002{
+    position: none;
+    display: flex;
+    justify-content: center;
+}
+.gui_figure0001{
+    position: relative;
+    left: -50px;
+}
+.gui_figure0002{
+    position: relative;
+    left: -55px;
+}
+
+.gui003 a{
+    display: flex;         /* 轉為 flex 容器 */
+    justify-content: center; /* 讓內部的 img 水平置中 */
+    width: 100%;           /* 確保容器撐滿寬度 */
+}
+.gui002 aside nav ul li{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 70px;
+}
+.gui014,.gui017,.gui018{
+    display: block;
+    width: 100%;
+}
+.gui017 h3{
+ position: relative;
+ left: -185px;
+}
+.gui018 p{
+ position: relative;
+ left: -50px;
+} 
+.gui005 .gui004{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gui005 .gui004 .gui0005{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gui005 .gui004 .gui0005 .a_00001 a{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gui005 .gui004 .gui0005 .a_00001 a{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: -60px;
+}
+}
